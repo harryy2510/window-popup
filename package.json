@@ -1,6 +1,6 @@
 {
   "name": "@appointy/window-popup",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "popup window library",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
