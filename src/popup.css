@@ -1,0 +1,22 @@
+.window-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100000;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 150ms ease-in;
+}
+
+.window-loader-visible {
+  opacity: 1;
+}
+
+.window-loader-message {
+  font-size: 24px;
+}
