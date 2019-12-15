@@ -6,6 +6,7 @@
   bottom: 0;
   z-index: 100000;
   background-color: rgba(255, 255, 255, 0.8);
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,4 +20,9 @@
 
 .window-loader-message {
   font-size: 24px;
+}
+
+[theme="dark"] .window-loader {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: black;
 }
